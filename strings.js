@@ -1,0 +1,13 @@
+let text = "Hello World!";
+let length = text.length;
+let char = text.charAt(0);
+let letter = text.at(2);
+let char2 = text[0];
+let fruits = "Apple, Banana, Kiwi";
+let part = fruits.slice(7, 13);
+let sub = fruits.substring(7, 13);
+let upperCase = text.upperCase();
+let lowerCase = text.lowerCase();
+let concat = text.concat("test of concat", text);
+let trimText = text.trim();
+let padStart = text.padStart(20, " ");
